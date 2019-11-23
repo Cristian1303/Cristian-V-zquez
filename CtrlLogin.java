@@ -25,7 +25,7 @@ import model.sessions.UsuarioFacade;
  *
  * @author Pablo Tenorio
  */
-@WebServlet(name = "CtrlLogin", urlPatterns = {"/Login", "/Iniciar","/Principal"})
+@WebServlet(name = "CtrlLogin", urlPatterns = {"/Login", "/Iniciar","/Principal, pito"})
 public class CtrlLogin extends HttpServlet {
 
     private String url = "";
